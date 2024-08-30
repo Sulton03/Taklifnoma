@@ -35,9 +35,4 @@ function togglePlayPause() {
     }
 }
 
-// Добавляем автозапуск музыки после загрузки страницы
-window.onload = function() {
-    audioPlayer.play().catch(error => {
-        console.log("Автозапуск заблокирован браузером:", error);
-    });
-};
+
